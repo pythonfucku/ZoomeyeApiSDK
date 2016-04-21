@@ -119,3 +119,9 @@ DEMO（可参考test.py）：
     
     #获取搜索的总数
     print app.total_ZoomeyeSearch(result) 
+    
+    
+SDK应用实例：
+    
+    增加了MetInfo.py
+    该程序为，基于本SDK的批量MetInfo SQL注入测试。
