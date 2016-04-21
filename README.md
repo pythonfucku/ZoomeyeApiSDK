@@ -7,9 +7,9 @@ zoomeye api官网说明：https://www.zoomeye.org/api
 
 该SDK提供了6种接口：
 
-    1.登录      [login()]
+    1.登录
     
-    2.查询用户信息      [resourcesInfo()]
+    2.查询用户信息
     
     3.web搜索（高级）      
     
