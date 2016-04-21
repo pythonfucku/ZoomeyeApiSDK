@@ -1,0 +1,55 @@
+20160421100407,20227,INFO > zoomeye login is running
+20160421100407,20227,ERROR > zoomeye request error:unauthorized(401)
+20160421100407,20227,ERROR > your credential was invalid, please confirm username or password, and try again
+20160421100407,20227,ERROR > zoomeye request error:your credential was invalid, please confirm username or password, and try again
+20160421100440,20232,INFO > zoomeye login is running
+20160421100451,20232,INFO > zoomeye login successful
+20160421100451,20232,INFO > zoomeye recorces info is running
+20160421100452,20232,INFO > zoomeye resource info:{u'plan': u'developer', u'resources': {u'host-search': 4902, u'web-search': 4992}}
+20160421100452,20232,INFO > zoomeye start searching host
+20160421100452,20232,ERROR > zoomeye advanced search args type error(app.advancedSearchArgs.apple="balalalala")
+20160421100452,20232,DEBUG > you can use there args,like:
+20160421100452,20232,DEBUG > ip:IP 地址为
+20160421100452,20232,DEBUG > app:组件名包含
+20160421100452,20232,DEBUG > site:域名包含
+20160421100452,20232,DEBUG > services:服务类型为
+20160421100452,20232,DEBUG > device:设备类型为
+20160421100452,20232,DEBUG > cidr:IP 的 CIDR 网段
+20160421100452,20232,DEBUG > port:端口号为
+20160421100452,20232,DEBUG > desc:关键词包含
+20160421100452,20232,DEBUG > city:城市为
+20160421100452,20232,DEBUG > ver:版本等于
+20160421100452,20232,DEBUG > country:国家为
+20160421100452,20232,DEBUG > hostname:主机名包含
+20160421100452,20232,DEBUG > keywords:描述包含
+20160421100452,20232,DEBUG > os:操作系统为
+20160421100452,20232,INFO > zoomeye advanced search args[ os:FreeBSD]
+20160421100452,20232,DEBUG > page:1
+20160421100452,20232,DEBUG > facets:os
+20160421100452,20232,INFO > search target:http://api.zoomeye.org/host/search?facet=os&query=cms+os%3AFreeBSD&page=1
+20160421100507,20232,INFO > zoomeye host request request count is 10
+20160421100507,20232,INFO > zoomeye start searching web
+20160421100507,20232,INFO > set advanced search args defalut(empty)
+20160421100507,20232,DEBUG > page:1
+20160421100507,20232,DEBUG > facets:os
+20160421100507,20232,INFO > search target:http://api.zoomeye.org/web/search?facet=os&query=cms&page=1
+20160421100518,20232,INFO > zoomeye web request request count is 10
+20160421101006,20288,INFO > Attack module MetInfo is running
+20160421101006,20288,INFO > zoomeye login is running
+20160421101017,20288,INFO > zoomeye login successful
+20160421101017,20288,INFO > zoomeye start searching host
+20160421101017,20288,INFO > set advanced search args defalut(empty)
+20160421101017,20288,DEBUG > page:1
+20160421101017,20288,INFO > search target:http://api.zoomeye.org/host/search?query=MetInfo&page=1
+20160421101033,20288,INFO > zoomeye host request request count is 10
+20160421101033,20288,INFO > find ip:45.127.127.39
+20160421101033,20288,INFO > find ip:47.88.29.57
+20160421101033,20288,INFO > find ip:60.251.212.90
+20160421101033,20288,INFO > find ip:223.26.54.73
+20160421101033,20288,INFO > find ip:221.204.12.99
+20160421101033,20288,INFO > find ip:220.135.199.36
+20160421101033,20288,INFO > find ip:42.96.165.119
+20160421101033,20288,INFO > find ip:211.155.86.148
+20160421101033,20288,INFO > find ip:103.243.131.241
+20160421101033,20288,INFO > find ip:198.57.202.135
+20160421101113,20288,INFO > 42.96.165.119 is vulnerable!
